@@ -5,6 +5,7 @@ import datetime as dt
 
 def get_df():
     fname = input('Enter filename')
+    fname = "../Data/" + fname
     df = pd.read_csv(fname,sep=',', skiprows = 2, engine='python')
     del df["State"]
     df["Dates"] = np.nan
