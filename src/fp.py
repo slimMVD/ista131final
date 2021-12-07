@@ -5,7 +5,11 @@ import datetime as dt
 import datetime
 from sklearn.linear_model import LinearRegression
 
-
+'''Alexander Esparza
+   Elias Anastopoulos
+   12/07/2021
+   ISTA 131 Final Project
+'''
 
 def csv(file):
     df = pd.read_csv(file, sep = ",", skiprows = 2)
