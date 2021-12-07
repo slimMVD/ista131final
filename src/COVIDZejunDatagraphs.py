@@ -1,7 +1,7 @@
 '''
 File: COVIDZejunDatagraphs.py
 Author: Zejun Li
-Purpose: This file contains 12 different functions to make 6 different graphs about the COVID 19 in Idaho
+Purpose: This file contains 12 different functions to make 5 different graphs about the COVID 19 in Idaho
 '''
 import pandas as pd, numpy as np, matplotlib.pyplot as plt
 import matplotlib.dates as mdates
