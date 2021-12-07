@@ -3,7 +3,7 @@ import matplotlib.dates as mdates
 import datetime
 import datetime as dt
 
-
+#THis was created and currated by Bryan Bielawa
 
 # this funtion takes a csv file and cleans it into a dataframe
 def get_df():
