@@ -76,7 +76,7 @@ def figure2():
 def figure3():
     df3 = clean_dose()
     plt.figure(figsize=(15,15), dpi= 80)
-    plt.title("Covid Vaccines Supplied in AZ", fontsize = 25)
+    plt.title("Covid Vaccines Supplied Per Day in AZ", fontsize = 25)
     lst = []
     dlst=[]
     for i in df3["Doses Per Day"]:
@@ -111,7 +111,7 @@ def figure4():
     plt.scatter(x,y)
     plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=35))
     plt.xlabel("Dates",fontsize = 20)
-    plt.ylabel("Doses Per Day", fontsize = 20)
+    plt.ylabel("Total Doses", fontsize = 20)
     plt.gca().invert_xaxis()
     plt.xticks(fontsize=14, rotation=45)
     plt.yticks(fontsize=14)
